@@ -20,6 +20,7 @@ const CardState = (props) => {
   const clearFilter = () => {
     dispach({
       type: CLEAR_FILTER,
+      payload: Data,
     });
   };
 
