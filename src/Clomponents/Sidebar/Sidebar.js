@@ -1,20 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
 import homeIcon from "../../Assets/Images/home.png";
 import Data from "../AddSnippet/Data";
+import CardContext from "../../Context/CardActions/CardContext";
 
-function Sidebar(setItem) {
-  const menuCats = [...new Set(Data.map((Val) => Val.category))];
-
-  const filterItem = (curcat) => {
-    const newItem = Data.filter((newVal) => {
-      return newVal.category === curcat;
-    });
-    setItem(newItem);
+function Sidebar() {
+  const cardContext = useContext(CardContext);
+  const filterSnippets = cardContext;
+  const handleClick = (value) => {
+    filterSnippets.filterSnippets(value);
   };
 
-  // const menuLogo = [...new Set(Data.map((Val) => Val.categoryLogo))];
+  const categories = [...new Set(Data.map((Val) => Val.category))];
 
   return (
     <>
@@ -28,18 +26,16 @@ function Sidebar(setItem) {
         <div className="sidebar-menu-container">
           <div className="sidebar-menu">
             <img className="sidebar-menu-icon" alt="home" src={homeIcon} />
-            <div className="sidebar-menu-button" onClick={() => setItem(Data)}>
-              Home
-            </div>
+            <div className="sidebar-menu-button">Home</div>
           </div>
           <div className="sidebar-menu sidebar-categories">
-            {/* <img className="sidebar-menu-icon" alt="Category" src={menuLogo} /> */}
-            {menuCats.map((Val, id) => {
+            {categories.map((Val, id) => {
               return (
                 <div
-                  onClick={() => filterItem(Val)}
+                  onClick={() => handleClick(Val)}
                   key={id}
                   className="sidebar-menu-button"
+                  type="radio"
                 >
                   {Val}
                 </div>

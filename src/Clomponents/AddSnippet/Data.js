@@ -1,8 +1,8 @@
-import softDev from "../../Assets/Images/softwareDevelopment.png";
-import tester from "../../Assets/Images/softwareTesting.png";
-import devOps from "../../Assets/Images/devOps.png";
-import design from "../../Assets/Images/design.png";
-import productManagement from "../../Assets/Images/productManagement.png";
+// import softDev from "../../Assets/Images/softwareDevelopment.png";
+// import tester from "../../Assets/Images/softwareTesting.png";
+// import devOps from "../../Assets/Images/devOps.png";
+// import design from "../../Assets/Images/design.png";
+// import productManagement from "../../Assets/Images/productManagement.png";
 
 const Data = [
   {
@@ -10,7 +10,7 @@ const Data = [
     company: "Google",
     time: "2hr ago",
     position: "Full-Stack JavaScript Developer Wanted",
-    categoryLogo: { softDev },
+    categoryLogo: "../../Assets/Images/softwareDevelopment.png",
     category: "Software development",
     location: "Skopje",
     description:
@@ -25,7 +25,7 @@ const Data = [
     company: "Google",
     time: "3hr ago",
     position: "Test Automation Engineer",
-    categoryLogo: { tester },
+    categoryLogo: "../../Assets/Images/softwareTesting.png",
     category: "Software testing",
     location: "Berlin",
     description:
@@ -40,7 +40,7 @@ const Data = [
     company: "Google",
     time: "4hr ago",
     position: "DevOps Engineer Wanted",
-    categoryLogo: { devOps },
+    categoryLogo: "../../Assets/Images/devOps.png",
     category: "DevOps",
     location: "Belgrade",
     description:
@@ -55,7 +55,7 @@ const Data = [
     company: "Google",
     time: "5hr ago",
     position: "Web Designer Wanted",
-    categoryLogo: { design },
+    categoryLogo: "../../Assets/Images/design.png",
     category: "Design, UX, UI",
     location: "Skopje",
     description:
@@ -70,7 +70,7 @@ const Data = [
     company: "Google",
     time: "6hr ago",
     position: "Product Manager",
-    categoryLogo: { productManagement },
+    categoryLogo: "../../Assets/Images/productManagement.png",
     category: "Product management",
     location: "San Francisco",
     description:

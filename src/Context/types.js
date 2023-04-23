@@ -1,0 +1,2 @@
+export const FILTER_SNIPPETS = "FILTER_SNIPPETS";
+export const CLEAR_FILTER = "CLEAR_FILTER";
