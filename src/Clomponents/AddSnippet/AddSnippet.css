@@ -1,7 +1,7 @@
 .content-container {
-    width: 100%;
+    width: 46.5dvw;
     top: 12dvh;
-    left: 46%;
+    left: 43%;
     position: relative;
     text-decoration: none;
     color: black;
@@ -12,11 +12,11 @@
 
 .add-snippet-container {
     display: flex;
-    width: 101%;
+    width: 96%;
     height: 22vh;
-    border-bottom: 1px solid #dceaee;
     padding: 2%;
     justify-content: space-between;
+    border-bottom: 1px solid #dceaee;
     
 }
 
