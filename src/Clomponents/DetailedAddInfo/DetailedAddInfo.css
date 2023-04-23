@@ -1,0 +1,30 @@
+.detailed-add-container {
+    display: flex;
+    width: 43.25%;
+    height: 60dvh;
+    border-bottom: 1px solid #dceaee;
+    /* border-left: 1px solid #dceaee;
+    border-right: 1px solid #dceaee; */
+    padding: 2%;
+    justify-content: space-between;
+    top: 12dvh;
+    right: 32.61%;
+    position: absolute;
+}
+
+.position-description {
+    height: 40lvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.description-subtitle {
+    width: 96%;
+    height: auto;
+    background-color: #f1f5f7;
+    color: #677079;
+    padding: 2%;
+}

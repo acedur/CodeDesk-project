@@ -1,0 +1,74 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    height: 91.5dvh;
+    padding: 2%;
+    border-right: 1px solid #dceaee;
+    top: 0;
+    left: 0;
+    right: 80%;
+    position: fixed;
+}
+
+.sidebar-logo-container{
+    display: flex;
+    padding-bottom: 30%;
+}
+
+.sidebar-logo{
+    color: #d20967;
+    font-size: 2dvw;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.trademark{
+    font-size: 0.8dvw;
+    color: #7f8891;
+}
+
+.sidebar-menu-container{
+    height: 60%;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.sidebar-menu {
+    display: flex;
+}
+
+.sidebar-categories {
+    flex-direction: column;
+}
+
+.sidebar-menu-button {
+    font-size: 1dvw;
+    font-weight: 600;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sidebar-menu-icon {
+    padding: 5%;
+    height: 3.5dvh;
+    width: 3.5dvh;
+}
+
+.sidebar-menu-button{
+    cursor: pointer;
+} 
+
+.sidebar-menu-button{
+    font-weight:800;
+}
+
+.signup-sign-in:hover {
+    cursor: pointer;
+}

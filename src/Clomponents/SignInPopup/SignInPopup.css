@@ -1,0 +1,102 @@
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+
+.modal-container-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    position: fixed;
+    max-width: 500px;
+    width: 30%;
+    height: 60dvh;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.login-input {
+    height: 7dvh;
+    width: 90%;
+    padding-left: 5%;
+    font-size: 1.1dvw;
+    border: 1px solid;
+    border-color: #dadada;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px 2px rgb(218, 218, 218, 0.7);
+}
+
+.light-font {
+    color: #a2a9af;
+}
+
+.login-input:focus {
+    outline: #a2a9af;
+    background-color: #e7f0fe;
+}
+
+.continue {
+    height: 7dvh;
+    width: 90%;
+    background-color: #e80570;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5dvh;
+}
+
+.remember-forgot {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1dvw;
+}
+
+.remember {
+    color: rgba(153,153,153,255);
+}
+
+.remember input {
+    display: inline-block;
+    height: 1.8dvh;
+    width: 1.8dvh;
+}
+
+.forgot {
+    color: rgba(127,136,145,255);
+    font-weight: bold;
+}
+
+.member-join {
+    width: 102%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #eaeef2;
+    padding-top: 8%;
+    font-size: 1.1dvw;
+    font-stretch: expanded;
+}
+
+.join {
+    color: #e80570;
+    margin-left: 1%;
+}

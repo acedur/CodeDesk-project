@@ -1,0 +1,108 @@
+.right-sidebar {
+    width: 41.4%;
+    height: 88lvh;
+    border-left: 1px solid #dceaee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 12dvh;
+    right: 0%;
+    left: 67.33%;
+}
+
+.signup-sidebar-container {
+    width: 90%;
+    max-height: 80%;
+    padding: 2% 0% 0% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.signup-sidebar-heading {
+    font-size: 4dvw;
+    font-weight: 700;
+}
+
+.signup-social {
+    display: flex;
+    border: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 2%;
+    width: 60%;
+    height: 3dvh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+.signup-social img {
+    height: 3dvh;
+    width: 3dvh;
+    padding-right: 5%;
+}
+
+.signup-or {
+    width: 60%; 
+    text-align: center; 
+    border-bottom: 2px solid #eaeef2; 
+    line-height: 0em;
+    margin: 10px 0 20px;
+}
+
+.signup-or span {
+    background:#fff; 
+    padding:0 10px;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+.signup-phone-email {
+    display: flex;
+    background-color: #e90470;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 2%;
+    width: 60%;
+    height: 3dvh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1vw;
+    font-weight: 700;
+}
+
+.signup-terms {
+    width: 60%;
+    font-size: 0.7vw;
+    color: #5e666f;
+}
+
+.signup-have-an-account {
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: #212222;
+}
+
+.signup-sign-in {
+    display: flex;
+    color: #d20967;
+    border: 2px;
+    border-color: #dadee3;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 2%;
+    width: 60%;
+    height: 3dvh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1vw;
+    font-weight: 700;
+}

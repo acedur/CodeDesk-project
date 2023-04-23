@@ -1,0 +1,112 @@
+.content-container {
+    width: 100%;
+    top: 12dvh;
+    left: 46%;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-snippet-container {
+    display: flex;
+    width: 101%;
+    height: 22vh;
+    border-bottom: 1px solid #dceaee;
+    padding: 2%;
+    justify-content: space-between;
+    
+}
+
+.company-logo {
+    height: 4.65dvh;
+    width: 4.65dvh;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+
+.add-snippet-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.snippet-company-time {
+    display: flex;
+    justify-content: space-between;
+    color: #7f8891;
+    font-size: 1.2vw;
+}
+
+.snippet-company {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.valid {
+    height: 2.2dvh;
+    width: 1.1dvw;
+    margin-left: 0.3dvw;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    height: 0.4dvh;
+    width: 0.25dvw;
+    background-color: #7f8891;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 0.3dvw;
+  }
+
+.snippet-position {
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+.snippet-location {
+    display: flex;
+    align-items: center;
+    color: #7b8690;
+    font-size: 1.1vw;
+    font-weight: 300;
+}
+
+.snippet-location-img {
+    height: 2.3dvh;
+    width: 1dvw;
+    margin-right: 0.3dvw;
+}
+
+.snippet-description {
+    color: #44525a;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.snippet-statistics {
+    display: flex;
+    justify-content: space-around;
+    color: #949fa9;
+    padding-top: 2%;
+    font-size: 1vw;
+}
+
+.dsp-flex-cent {
+    display: flex;
+    align-items: center;
+}
+
+.snippet-statistics-logo {
+    height: 2.4dvh;
+    width: 1.2dvw;
+    margin-right: 0.5dvw;
+}

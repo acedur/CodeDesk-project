@@ -1,0 +1,54 @@
+.add-stats-container {
+    width: 40%;
+    font-weight: bold;
+    margin-bottom: 20dvh;
+    padding-left: 5%;
+}
+
+.detailed-add-stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 90%;
+    font-size: 1dvw;
+}
+
+.detailed-add-stats {
+    margin-bottom: 2dvh;
+    font-weight:600;
+}
+
+.detailed-add-stats-img {
+    height: 2.6dvh;
+    width: 1.6dvw;
+}
+
+.apply {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    background-color: #e70570;
+    color: #fff;
+    border-radius: 50px;
+    padding: 5%;
+    font-size: 1.1dvw;
+}
+
+.sidebar-stats-subtitle {
+    font-size: 1.2dvw;
+    width: 100%;
+}
+
+.job-details {
+    background-color: #f1f5f7;
+    color: rgb(71, 76, 80);
+    font-size: 0.9dvw;
+    padding: 5%;
+    margin: 20% 0 20% 0;
+    width: 100%;
+    border-radius: 5px;
+    border: rgba(71, 76, 80, 0.1) 1px solid;
+}
