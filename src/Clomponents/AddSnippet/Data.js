@@ -11,7 +11,7 @@ const Data = [
     time: "2hr ago",
     position: "Full-Stack JavaScript Developer Wanted",
     categoryLogo: { softDev },
-    category: " Software development",
+    category: "Software development",
     location: "Skopje",
     description:
       "We have an open position at the gMail team. Apply mow and help us make gMail even better",
@@ -26,7 +26,7 @@ const Data = [
     time: "3hr ago",
     position: "Test Automation Engineer",
     categoryLogo: { tester },
-    category: " Software testing",
+    category: "Software testing",
     location: "Berlin",
     description:
       "We have an open position at the gMail team. Apply mow and help us make gMail even better",
@@ -41,7 +41,7 @@ const Data = [
     time: "4hr ago",
     position: "DevOps Engineer Wanted",
     categoryLogo: { devOps },
-    category: " DevOps",
+    category: "DevOps",
     location: "Belgrade",
     description:
       "We have an open position at the gMail team. Apply mow and help us make gMail even better",
@@ -56,7 +56,7 @@ const Data = [
     time: "5hr ago",
     position: "Web Designer Wanted",
     categoryLogo: { design },
-    category: " Design, UX, UI",
+    category: "Design, UX, UI",
     location: "Skopje",
     description:
       "We have an open position at the gMail team. Apply mow and help us make gMail even better",
@@ -71,7 +71,7 @@ const Data = [
     time: "6hr ago",
     position: "Product Manager",
     categoryLogo: { productManagement },
-    category: " Product management",
+    category: "Product management",
     location: "San Francisco",
     description:
       "We have an open position at the gMail team. Apply mow and help us make gMail even better",
