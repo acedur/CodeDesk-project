@@ -24,10 +24,10 @@ function Sidebar() {
           <div className="trademark">&trade;</div>
         </div>
         <div className="sidebar-menu-container">
-          <div className="sidebar-menu">
+          <NavLink to={"/"} className="sidebar-menu">
             <img className="sidebar-menu-icon" alt="home" src={homeIcon} />
             <div className="sidebar-menu-button">Home</div>
-          </div>
+          </NavLink>
           <div className="sidebar-menu sidebar-categories">
             {categories.map((Val, id) => {
               return (

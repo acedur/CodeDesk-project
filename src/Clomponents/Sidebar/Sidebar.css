@@ -39,6 +39,8 @@
 
 .sidebar-menu {
     display: flex;
+    color: #000;
+    text-decoration: none;
 }
 
 .sidebar-categories {
