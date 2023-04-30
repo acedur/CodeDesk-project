@@ -1,9 +1,3 @@
-// import softDev from "../../Assets/Images/softwareDevelopment.png";
-// import tester from "../../Assets/Images/softwareTesting.png";
-// import devOps from "../../Assets/Images/devOps.png";
-// import design from "../../Assets/Images/design.png";
-// import productManagement from "../../Assets/Images/productManagement.png";
-
 const Data = [
   {
     id: "1",

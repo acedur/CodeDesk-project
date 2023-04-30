@@ -50,24 +50,23 @@
 .sidebar-menu-button {
     font-size: 1.2dvw;
     font-weight: 600;
-    padding: 15% 0 15% 0;
+    padding: 10% 0 10% 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sidebar-menu-button-active{
+    font-weight:800;
+    font-size: 1.2dvw;
+    padding: 8% 0 8% 0;
 }
 
 .sidebar-menu-icon {
     padding: 5%;
     height: 3.5dvh;
     width: 3.5dvh;
-}
-
-.sidebar-menu-button{
-    cursor: pointer;
-} 
-
-.sidebar-menu-button:active{
-    font-weight:800;
 }
 
 .signup-sign-in:hover {

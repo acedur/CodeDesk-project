@@ -1,13 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import "./AddSnippet.css";
 import AddSnippetCard from "./AddSnippetCard";
 import Data from "./Data";
 
 function AddSnippet() {
-  const [item, setItem] = useState(Data);
   return (
     <div className="content-containe">
-      <AddSnippetCard item={item} />
+      {Data.map((Data) => (
+        <AddSnippetCard
+          key={Data.id}
+          company={Data.company}
+          time={Data.time}
+          position={Data.position}
+          category={Data.category}
+          location={Data.location}
+          description={Data.description}
+          views={Data.views}
+          likes={Data.likes}
+          applicants={Data.applicants}
+          shares={Data.shares}
+        />
+      ))}
     </div>
   );
 }
