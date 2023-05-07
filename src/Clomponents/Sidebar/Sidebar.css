@@ -32,12 +32,13 @@
     height: 60%;
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items:flex-start;
     justify-content: center;
 }
 
 .sidebar-menu {
+    height: 45dvh;
+    width: auto;
     display: flex;
     color: #000;
     text-decoration: none;
@@ -48,7 +49,9 @@
 }
 
 .sidebar-menu-button {
-    font-size: 1.2dvw;
+    height: 100%;
+    width: auto;
+    font-size: 1dvw;
     font-weight: 600;
     padding: 10% 0 10% 0;
     display: flex;
@@ -59,12 +62,21 @@
 
 .sidebar-menu-button-active{
     font-weight:800;
-    font-size: 1.2dvw;
+    font-size: 1dvw;
     padding: 8% 0 8% 0;
 }
 
 .sidebar-menu-icon {
-    padding: 5%;
+    height: 45dvh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 5%;
+}
+
+.sidebar-menu-icon img {
+    padding-bottom: 20%;
     height: 3.5dvh;
     width: 3.5dvh;
 }

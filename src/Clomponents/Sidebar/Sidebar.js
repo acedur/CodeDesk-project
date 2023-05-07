@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
 import CardContext from "../../Context/CardActions/CardContext";
+import Data from "../AddSnippet/Data";
 
 function Sidebar() {
   const { filter, setFilter } = useContext(CardContext);
@@ -29,6 +30,11 @@ function Sidebar() {
           <div className="trademark">&trade;</div>
         </div>
         <div className="sidebar-menu-container">
+          <div className="sidebar-menu-icon">
+            {Data.map((image) => (
+              <img key={image.id} src={image.categoryLogo} alt="Category" />
+            ))}
+          </div>
           <div className="sidebar-menu sidebar-categories">
             {categories.map((category) => {
               return (

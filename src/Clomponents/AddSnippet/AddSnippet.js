@@ -4,9 +4,11 @@ import AddSnippetCard from "./AddSnippetCard";
 import Data from "./Data";
 
 function AddSnippet() {
+  const slicedData = Data.slice(1);
+
   return (
     <div className="content-containe">
-      {Data.map((Data) => (
+      {slicedData.map((Data) => (
         <AddSnippetCard
           key={Data.id}
           company={Data.company}

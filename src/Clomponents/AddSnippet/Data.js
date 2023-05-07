@@ -1,10 +1,21 @@
+import homeLogo from "../../Assets/Images/home.png";
+import softwareDevLogo from "../../Assets/Images/softwareDevelopment.png";
+import softwareTestLogo from "../../Assets/Images/softwareTesting.png";
+import devOpsLogo from "../../Assets/Images/devOps.png";
+import designLogo from "../../Assets/Images/design.png";
+import productManLogo from "../../Assets/Images/productManagement.png";
+
 const Data = [
   {
     id: "1",
+    categoryLogo: homeLogo,
+  },
+  {
+    id: "2",
     company: "Google",
     time: "2hr ago",
     position: "Full-Stack JavaScript Developer Wanted",
-    categoryLogo: "../../Assets/Images/softwareDevelopment.png",
+    categoryLogo: softwareDevLogo,
     category: "Software development",
     location: "Skopje",
     description:
@@ -15,11 +26,11 @@ const Data = [
     shares: "17",
   },
   {
-    id: "2",
+    id: "3",
     company: "Google",
     time: "3hr ago",
     position: "Test Automation Engineer",
-    categoryLogo: "../../Assets/Images/softwareTesting.png",
+    categoryLogo: softwareTestLogo,
     category: "Software testing",
     location: "Berlin",
     description:
@@ -30,11 +41,11 @@ const Data = [
     shares: "17",
   },
   {
-    id: "3",
+    id: "4",
     company: "Google",
     time: "4hr ago",
     position: "DevOps Engineer Wanted",
-    categoryLogo: "../../Assets/Images/devOps.png",
+    categoryLogo: devOpsLogo,
     category: "DevOps",
     location: "Belgrade",
     description:
@@ -45,11 +56,11 @@ const Data = [
     shares: "17",
   },
   {
-    id: "4",
+    id: "5",
     company: "Google",
     time: "5hr ago",
     position: "Web Designer Wanted",
-    categoryLogo: "../../Assets/Images/design.png",
+    categoryLogo: designLogo,
     category: "Design, UX, UI",
     location: "Skopje",
     description:
@@ -60,11 +71,11 @@ const Data = [
     shares: "17",
   },
   {
-    id: "5",
+    id: "6",
     company: "Google",
     time: "6hr ago",
     position: "Product Manager",
-    categoryLogo: "../../Assets/Images/productManagement.png",
+    categoryLogo: productManLogo,
     category: "Product management",
     location: "San Francisco",
     description:
